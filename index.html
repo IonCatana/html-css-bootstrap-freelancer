@@ -43,14 +43,14 @@
   </header>
   <main>
     <!-- Section 1 -->
-    <section class="section_1">
-      <div class="container-fluid">
-        <div class="row bg-main-top ">
+    <section class="section_1 ">
+      <div class="container-fluid bg-main-top">
+        <div class="row  ">
           <div class="row justify-content-center gap-4">
             <div class="row img-contain">
               <img src="img/avatar.svg" alt="" />
             </div>
-            <h1 class="text-center">START BOOTSTRAP</h1>
+            <h1 class="text-center fs-1">START BOOTSTRAP</h1>
             <div class="d-flex justify-content-center align-items-center">
               <div class="bg_line"></div>
               <i class="fas fa-star"></i>
@@ -58,7 +58,10 @@
             </div>
             <div class="row">
               <h5 class="text-center pb-5">
-                GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+                <div class="col">
+                  GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+                </div>
+
               </h5>
             </div>
           </div>
@@ -69,52 +72,92 @@
     <section class="section_2">
       <div class="container">
         <div class="row">
-          <h4 class="text-center">PORTFOLIO</h4>
-          <div class="d-flex justify-content-center align-items-center">
+          <h4 class="text-center fs-2">PORTFOLIO</h4>
+          <div class=" py-4 d-flex justify-content-center align-items-center">
             <div class="bg_line"></div>
             <i class="fas fa-star"></i>
             <div class="bg_line"></div>
           </div>
         </div>
-        <div class="row justify-content-center gx-0 ">
-          <div class="col-3 card m-2">
-            <img src="img/cabin.png" alt="">
+        <div class="row g-4 ">
+          <div class="col-12 col-sm-6 col-lg-4 border-0  card">
+            <img src="img/cabin.png" class="rounded" alt="">
           </div>
-          <div class="col-3 card m-2">
-            <img src="img/cake.png" alt="">
+          <div class="col-12 col-sm-6 col-lg-4 border-0 card">
+            <img src="img/cake.png" class="rounded" alt="">
           </div>
-          <div class="col-3 card m-2">
-            <img src="img/circus.png" alt="">
+          <div class="col-12 col-sm-6 col-lg-4 border-0 card">
+            <img src="img/circus.png" class="rounded" alt="">
           </div>
-        </div>
-        <div class="row justify-content-center gx-0  ">
-          <div class="col-3 card m-2">
-            <img src="img/game.png" alt="">
+          <div class="col-12 col-sm-6 col-lg-4 border-0 card ">
+            <img src="img/game.png" class="rounded" alt="">
           </div>
-          <div class="col-3 card m-2">
-            <img src="img/safe.png" alt="">
+          <div class="col-12 col-sm-6 col-lg-4 border-0 card ">
+            <img src="img/safe.png" class="rounded" alt="">
           </div>
-          <div class="col-3 card m-2">
-            <img src="img/submarine.png" alt="">
+          <div class="col-12 col-sm-6 col-lg-4 border-0 card ">
+            <img src="img/submarine.png" class="rounded" alt="">
           </div>
         </div>
+      </div>
       </div>
       </div>
     </section>
     <!-- Section 3 -->
-    <section class="section_3">
-      <div class="container-fluid">
-        <div class="row bg-main-top debug-height-500">
-          <div class="col-12"></div>
+    <section class="section_3 ">
+      <div class="container-fluid bg-main-top mt-5">
+        <div class="container mt-5">
+          <div class="row">
+            <h4 class="text-center mt-5 fs-1">ABOUT</h4>
+            <div class=" mb-4 d-flex justify-content-center align-items-center">
+              <div class="bg_line"></div>
+              <i class="fas fa-star"></i>
+              <div class="bg_line"></div>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-6">
+              <p class="fs-2">Freelancer is a free bootstrap theme created by Start bootstrap. The download inludes the
+                complete
+                source
+                files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.
+              </p>
+            </div>
+            <div class="col-6">
+              <p class="fs-2">Whether you're a student looking to showcase your work, a professional looking to attract
+                clients, or a
+                graphic artist looking to share your projects, this template is the perfect starting point!</p>
+            </div>
+            <div class="col text-center ">
+              <button class="bg-main-top rounded border border-light">
+                <i class="fas fa-download "> Download</i>
+              </button>
+            </div>
+
+
+          </div>
         </div>
+
+
       </div>
     </section>
     <!-- Section 4 -->
     <section class="section_4">
       <div class="container">
-        <div class="row bg-body debug-height-680">
-          <div class="col-12"></div>
+        <h4 class="text-center mt-5 fs-1">CONTACT ME</h4>
+        <div class=" py-2 d-flex justify-content-center align-items-center">
+          <div class="bg_line"></div>
+          <i class="fas fa-star"></i>
+          <div class="bg_line"></div>
         </div>
+        <div class="row mb-3 ">
+          <input type="email" class="border_bottom ps-0 pb-2" placeholder="Name">
+          <input type="email" class="border_bottom ps-0 pb-2 pt-2" placeholder="Email Address">
+          <input type="email" class="border_bottom ps-0 pb-2 pt-2" placeholder="Phone Number">
+          <input type="email" class="border_bottom ps-0 pb-5 pt-2" placeholder="Message">
+          <button class="col-1 px-2 py-2 mt-2 rounded border-0 bg-main-top" id="send">Send</button>
+        </div>
+
       </div>
     </section>
   </main>

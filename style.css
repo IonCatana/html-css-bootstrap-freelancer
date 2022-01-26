@@ -1,67 +1,94 @@
 /* Debug */
-.debug-height-90{
+.debug-height-90 {
   min-height: 90px;
 }
-.debug-height-110{
+.debug-height-110 {
   min-height: 110px;
 }
-.debug-height-230{
+.debug-height-230 {
   min-height: 230px;
 }
-.debug-height-580{
+.debug-height-580 {
   min-height: 580px;
 }
-.debug-height-500{
+.debug-height-500 {
   min-height: 500px;
 }
-.debug-height-680{
+.debug-height-680 {
   min-height: 680px;
 }
-.debug-height-850{
+.debug-height-850 {
   min-height: 850px;
 }
 /* Background color */
-.bg-nav{
-  background-color: #2C3E50;  
+.bg-nav {
+  background-color: #2c3e50;
 }
-.bg-main-top{
-  background-color: #1ABC9C;
+.bg-main-top {
+  background-color: #1abc9c;
 }
-.bg-footer-top{
-  background-color: #3A546D;
+.bg-footer-top {
+  background-color: #3a546d;
 }
-.bg-footer-bottom{
-  background-color: #2C3E50;
+.bg-footer-bottom {
+  background-color: #2c3e50;
 }
 .ms_nav a {
   color: white !important;
 }
 /* Img WH */
 
-.img-contain{
-  max-width: 300px;
-  
+.img-contain {
+  max-width: 250px;
 }
-.section_1 .bg_line{
+
+/* Section 1 */
+.section_1 .bg_line,
+.section_3 .bg_line {
   background-color: white;
-  width: 100px;
+  width: 120px;
   height: 2px;
   border-radius: 2px;
 }
-.section_1 i{
+.section_1 i,
+.section_3 i {
   color: white;
   padding: 0 20px;
 }
-.section_2 i{
+.section_3 h4,
+.section_3 p{
+  color: white;
+}
+
+/* Section 2 */
+.section_2 i,
+.section_4 i {
   color: black;
   padding: 0 20px;
 }
-.section_2 .bg_line{
-  background-color: black !important;
-  width: 100px;
+.section_2 h4 {
+  padding-top: 30px;
+}
+.section_2 .bg_line,
+.section_4 .bg_line {
+  background-color: black;
+  width: 110px;
   height: 2px;
   border-radius: 2px;
 }
-h1, h5{
+h1,
+h5 {
+  color: white;
+}
+
+.section_3 button{
+  margin-bottom: 40px;
+}
+.border_bottom{
+  border: none;
+  border-bottom: 1px solid grey;
+}
+/* Section 4 */
+.section_4 button{
   color: white;
 }
