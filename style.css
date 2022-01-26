@@ -1,27 +1,28 @@
+/* Debug */
 .debug-height-90{
-  height: 90px;
+  min-height: 90px;
 }
 .debug-height-110{
-  height: 110px;
+  min-height: 110px;
 }
 .debug-height-230{
-  height: 230px;
+  min-height: 230px;
 }
 .debug-height-580{
-  height: 580px;
+  min-height: 580px;
 }
 .debug-height-500{
-  height: 500px;
+  min-height: 500px;
 }
 .debug-height-680{
-  height: 680px;
+  min-height: 680px;
 }
 .debug-height-850{
-  height: 850px;
+  min-height: 850px;
 }
+/* Background color */
 .bg-nav{
-  background-color: #070b0f;
-  height
+  background-color: #2C3E50;  
 }
 .bg-main-top{
   background-color: #1ABC9C;
@@ -31,4 +32,36 @@
 }
 .bg-footer-bottom{
   background-color: #2C3E50;
+}
+.ms_nav a {
+  color: white !important;
+}
+/* Img WH */
+
+.img-contain{
+  max-width: 300px;
+  
+}
+.section_1 .bg_line{
+  background-color: white;
+  width: 100px;
+  height: 2px;
+  border-radius: 2px;
+}
+.section_1 i{
+  color: white;
+  padding: 0 20px;
+}
+.section_2 i{
+  color: black;
+  padding: 0 20px;
+}
+.section_2 .bg_line{
+  background-color: black !important;
+  width: 100px;
+  height: 2px;
+  border-radius: 2px;
+}
+h1, h5{
+  color: white;
 }
